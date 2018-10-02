@@ -62,3 +62,10 @@ git commit -am "first"
 git . commit -am "first"
 git status
 l
+git add .
+git commit -m "first"
+git log
+ls > l
+git diff
+l
+git diff
