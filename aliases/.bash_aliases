@@ -17,3 +17,5 @@ alias dw='cd /mnt/c/users/jimst/Downloads'
 alias s='history | grep '
 alias n='node'
 alias vd='vim /mnt/c/all/d.txt'
+alias p3='python3.6'
+alias i3="ipython3"
