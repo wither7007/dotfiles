@@ -23,3 +23,4 @@ alias vd='vim /mnt/c/all/d.txt'
 alias vn="vim /mnt/c/all/n.txt"
 alias y3='youtube-dl -x --audio-format mp3 '
 alias y4='youtube-dl -f 18 '
+alias lotto='curl --silent https://www.mnlottery.com/games/lotto | html2text | sed -e '1,72d' | v -'
