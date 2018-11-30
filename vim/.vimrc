@@ -22,7 +22,7 @@ set noswapfile
 set notimeout
 "set hlsearch
 call plug#begin()
-Plug 'mattn/emmet-vim'
+"Plug 'mattn/emmet-vim'
 call plug#end()
 let g:user_emmet_leader_key=','
 vmap <C-c> :w! ~/.vimbuffer \| !cat ~/.vimbuffer \| clip.exe <CR><CR>
@@ -30,4 +30,5 @@ noremap <Leader>y "*y
 noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
-
+set pastetoggle=<F2>
+set showmode
