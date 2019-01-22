@@ -32,3 +32,6 @@ noremap <Leader>Y "+y
 noremap <Leader>P "+p
 set pastetoggle=<F2>
 set showmode
+execute pathogen#infect()
+call pathogen#helptags()
+let NERDTreeShowHidden=1
