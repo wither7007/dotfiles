@@ -23,6 +23,10 @@ set notimeout
 "set hlsearch
 call plug#begin()
 "Plug 'mattn/emmet-vim'
+Plug 'davidhalter/jedi-vim'
+Plug 'https://tpope.io/vim/sensible.git'
+Plug 'https://github.com/vim-airline/vim-airline'
+Plug 'https://github.com/tpope/vim-commentary'
 call plug#end()
 let g:user_emmet_leader_key=','
 vmap <C-c> :w! ~/.vimbuffer \| !cat ~/.vimbuffer \| clip.exe <CR><CR>
@@ -30,8 +34,11 @@ noremap <Leader>y "*y
 noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
-set pastetoggle=<F2>
+set pastetoggle=<C-I>
 set showmode
 execute pathogen#infect()
 call pathogen#helptags()
 let NERDTreeShowHidden=1
+colorscheme elflord
+"run current with python
+map <C-P> <Esc>:w<CR>:!clear;python3.6 %<CR>
