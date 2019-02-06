@@ -27,6 +27,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'https://tpope.io/vim/sensible.git'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/tpope/vim-commentary'
+Plug 'https://github.com/jiangmiao/auto-pairs'
 call plug#end()
 let g:user_emmet_leader_key=','
 vmap <C-c> :w! ~/.vimbuffer \| !cat ~/.vimbuffer \| clip.exe <CR><CR>
@@ -41,4 +42,5 @@ call pathogen#helptags()
 let NERDTreeShowHidden=1
 colorscheme elflord
 "run current with python
+nnoremap <leader>t :tabnew<CR>
 map <C-P> <Esc>:w<CR>:!clear;python3.6 %<CR>
