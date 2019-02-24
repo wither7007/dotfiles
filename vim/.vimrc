@@ -1,46 +1,53 @@
-set nocompatible              " be iMproved, required
-set statusline="%f%m%r%h%w [%Y] [0x%02.2B]%< %F%=%4v,%4l %3p%% of %L"
-set path+=**
-set wildmenu
+" Plug 'davidhalter/jedi-vim'
 " set the runtime path to include Vundle and initialize
-set number
-set tabstop=2
-syntax on
-set incsearch
+"Plug 'mattn/emmet-vim'
+"run current with python
+"set hlsearch
+"set search highlight
+"set toggle space
+call plug#begin()
+Plug 'https://github.com/jiangmiao/auto-pairs'
+Plug 'https://github.com/tpope/vim-commentary'
+Plug 'https://github.com/vim-airline/vim-airline'
+Plug 'https://tpope.io/vim/sensible.git'
+Plug 'https://github.com/scrooloose/nerdtree'
+call plug#end()
+colorscheme elflord
 imap jj <Esc>  
-map <C-K> <C-W>k
-map <C-J> <C-W>j
+let NERDTreeShowHidden=1
+let g:user_emmet_leader_key=','
 map <C-D> :put =strftime(\"%c\")
-map <C-L> <C-W>l
 map <C-H> <C-W>h
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
+map <C-P> <Esc>:w<CR>:!clear;python3.6 %<CR>
+map gd :bd<cr> 
+map gn :bn<cr>
+map gp :bp<cr>
+nnoremap <leader>t :tabnew<CR>
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+noremap <Leader>P "+p
+noremap <Leader>Y "+y
+noremap <Leader>p "*p
+noremap <Leader>y "*y
+noremap <leader>c 0v$hy
 noremap <leader>q :q!<cr>
 noremap <leader>w :wq<cr>
-syntax on
-set visualbell
-set t_vb=
+set hlsearch
+set incsearch
+set nocompatible              " be iMproved, required
 set noswapfile
 set notimeout
-"set hlsearch
-call plug#begin()
-"Plug 'mattn/emmet-vim'
-Plug 'davidhalter/jedi-vim'
-Plug 'https://tpope.io/vim/sensible.git'
-Plug 'https://github.com/vim-airline/vim-airline'
-Plug 'https://github.com/tpope/vim-commentary'
-Plug 'https://github.com/jiangmiao/auto-pairs'
-call plug#end()
-let g:user_emmet_leader_key=','
-vmap <C-c> :w! ~/.vimbuffer \| !cat ~/.vimbuffer \| clip.exe <CR><CR>
-noremap <Leader>y "*y
-noremap <Leader>p "*p
-noremap <Leader>Y "+y
-noremap <Leader>P "+p
+set number
 set pastetoggle=<C-I>
+set path+=**
 set showmode
-execute pathogen#infect()
-call pathogen#helptags()
-let NERDTreeShowHidden=1
-colorscheme elflord
-"run current with python
-nnoremap <leader>t :tabnew<CR>
-map <C-P> <Esc>:w<CR>:!clear;python3.6 %<CR>
+set statusline="%f%m%r%h%w [%Y] [0x%02.2B]%< %F%=%4v,%4l %3p%% of %L"
+set t_vb=
+set tabstop=2
+set visualbell
+set wildmenu
+syntax on
+syntax on
+vmap <C-c> :w! ~/.vimbuffer \| !cat ~/.vimbuffer \| clip.exe <CR><CR>
