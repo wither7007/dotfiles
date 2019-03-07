@@ -11,6 +11,7 @@ Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://tpope.io/vim/sensible.git'
 Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'mattn/emmet-vim'
 call plug#end()
 colorscheme elflord
 imap jj <Esc>  
