@@ -24,7 +24,7 @@ alias lotto='curl --silent https://www.mnlottery.com/games/lotto | html2text | s
 alias ls='ls --color=auto'
 alias lt='ls -lhrt'
 alias md='mkdir'
-alias mn='cd /mnt/c'
+alias mc='cd /mnt/c'
 alias mp='cd /mnt/c/projects'
 alias nb='node --inspect-brk'
 alias no='node'
