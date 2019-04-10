@@ -14,6 +14,7 @@ Plug 'https://github.com/scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 call plug#end()
 colorscheme elflord
+let g:user_emmet_leader_key=','
 imap jj <Esc>  
 let NERDTreeShowHidden=1
 let g:user_emmet_leader_key=','
