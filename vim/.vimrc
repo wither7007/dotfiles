@@ -25,6 +25,9 @@ map <C-K> <C-W>k
 map <C-L> <C-W>l
 map <C-P> <Esc>:w<CR>:!clear;python3.6 %<CR>
 map <c-'> `
+map <C-N> <C-W>n
+map f <C-F>
+map b <C-B>
 map gd :bd<cr> 
 map gn :bn<cr>
 map gp :bp<cr>
