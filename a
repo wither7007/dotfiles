@@ -1,0 +1,10 @@
+total 20K
+drwxrwxrwx 1 steff007 steff007 512 Oct 23  2018 bhistory
+-rw-rw-rw- 1 steff007 steff007 20K Nov 19 15:00 c
+drwxrwxrwx 1 steff007 steff007 512 Nov 29 21:49 aliases
+drwxrwxrwx 1 steff007 steff007 512 Apr  8 10:22 vim
+-rw-rw-rw- 1 steff007 steff007 312 May  8 14:11 set.sh
+-rw-rw-rw- 1 steff007 steff007 355 May  8 18:32 start.sh
+drwxrwxrwx 1 steff007 steff007 512 May 12 12:37 tmux
+drwxrwxrwx 1 steff007 steff007 512 May 12 12:39 notes
+-rw-rw-rw- 1 steff007 steff007   0 May 12 12:40 a

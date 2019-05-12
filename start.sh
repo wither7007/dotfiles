@@ -1,3 +1,4 @@
+cd ~
 curl https://raw.githubusercontent.com/wither7007/dotfiles/master/vim/.vimrc > .vimrc
 curl https://raw.githubusercontent.com/wither7007/dotfiles/master/aliases/.bash_aliases > .bash_aliases	
 source .bash_aliases

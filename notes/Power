@@ -1,0 +1,58 @@
+more stuff
+this is changes
+https://portableapps.com/downloading/?a=gVimPortable&n=gVim%20Portable&s=s&p=&d=pa&f=gVimPortable_8.1.1.paf.exe
+echo $HOME
+LS
+cd $HOME
+curl -OutFile _vimrc https://raw.githubusercontent.com/wither7007/dotfiles/master/vim/.vimrc
+$env:Path += ";C:\Users\internet10\Downloads\GVimPortable"
+DIR
+VERSION
+$PSVersionTable.PSVersion
+whoami
+wget http://blog.stackexchange.com/ -OutFile out.html
+wget https://raw.githubusercontent.com/wither7007/dotfiles/master/vim/.vimrc
+curl https://raw.githubusercontent.com/wither7007/dotfiles/master/vim/.vimrc
+$psversiontable
+curl -OutFile index.html http://example.com
+lt
+ls
+vim
+ls
+cat .\index.html
+curl -OutFile text https://raw.githubusercontent.com/wither7007/dotfiles/master/vim/.vimrc
+ls
+ls
+cat text
+curl -OutFile text https://raw.githubusercontent.com/wither7007/dotfiles/master/vim/.vimrc > _vimrc
+lt
+ls
+ls
+Get-Content -Path (Get-PSReadlineOption).HistorySavePath > h
+ls
+$PATH
+ECHO $PATH
+env:path -split ";"
+env
+$env:path -split ";"`
+`
+
+lt
+ls
+np
+notepad h
+wget https://portableapps.com/downloading/?a=gVimPortable&n=gVim%20Portable&s=s&p=&d=pa&f=gVimPortable_8.1.1.paf.exe
+curl https://portableapps.com/downloading/?a=gVimPortable&n=gVim%20Portable&s=s&p=&d=pa&f=gVimPortable_8.1.1.paf.exe
+lt
+ls
+ls
+cd .\Downloads\
+ls
+cd .\GVimPortable\
+ls
+pwd
+ls
+cd
+cd $HOME
+GVimPortable
+Get-Content -Path (Get-PSReadlineOption).HistorySavePath > h

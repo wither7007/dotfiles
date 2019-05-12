@@ -1,0 +1,81 @@
+
+https://d.docs.live.net/45392B0364E6CD1F
+curl https://raw.githubusercontent.com/wither7007/dotfiles/master/start.sh > start.sh
+gmapi: AIzaSyAk_m-cdevec7FKQ8-zhtPcZyD3mqlavrE
+site:news.ycombinator.com j2ee
+virtualenv first
+source first/bin/activate
+deactivate
+aptitude search ~i > a
+p3 -m pip install Faker
+ls -d -1 "$PWD/"**/*
+open two files
+vim -O
+#find exclude hidden
+find "$PWD" -name ".*" -prune -o -name "*.py" -print
+find . -not -path '*/\.*'
+# files by size
+find . -type f -printf "%s\t%p\n" | sort -n 
+find -name "*.js" -not -path "./node_modules/*"
+tmux c-a [ arrow
+object keys values entries
+lin to win %s/\//\\/g
+find `pwd` -name *.pdf
+delete lines not containing
+:%g!/price/d
+rsync -rv --exclude=node_modules /mnt/c/projects/rea2/ /mnt/c/projects/rea3
+powershell history
+Get-Content -Path (Get-PSReadlineOption).HistorySavePath > h
+t=q.split('\n').map(l=>l.split(','))
+
+var groupBy = function(xs, key) {
+  return xs.reduce(function(rv, x) {
+    (rv[x[key]] = rv[x[key]] || []).push(x);
+    return rv;
+  }, {});
+};
+
+cat /etc/os-release
+
+Get-Content (Get-PSReadlineOption).HistorySavePath
+lt -d */ #list directories
+ls -ld .?* #list dotfiles
+ls -p | grep -v / #list only files
+
+git clone https://github.com/wither7007/template.git .
+
+curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore > .gitignore
+google maps api
+AIzaSyBzdtM7ieKKeBLjOMZHVoRyGqztL4hrxRY
+xargs rm -rf <d #delete files from file list
+copy to parent dir
+find -name "*START*" -exec cp {}  ../work/index.html \;
+
+replace spaces in file name
+for f in *\ *; do mv "$f" "${f// /_}"; done
+create array 50 random
+k=Array.from({length:50}, ()=>rn(200))
+
+
+update bash
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y dist-upgrade
+sudo apt autoremove
+remove color
+cat websites | sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g" | sed "s/\x0f//g"
+hi | sed 's/^\s*[0-9]*\s*//g' | sort | uniq | vi -
+hi |  sort | uniq |  egrep -v "alias|cat|cd|cp|lt|mp" | vi -
+hi | cut -c 1-8 --complement | sort | uniq |  egrep -v "alias|cat|cd|cp|lt" | vi -
+ithon history
+%history -g -f filename 
+cd $HOME
+curl -OutFile _vimrc https://raw.githubusercontent.com/wither7007/dotfiles/master/vim/.vimrc
+github tc-streets pwd tcstreets3409
+function fin()
+{
+history | grep $1 | sed 's/^\s*[0-9]*\s*//g' | sort | uniq |  vim -
+
+}
+git hub jimsteffes
+Jansen476
