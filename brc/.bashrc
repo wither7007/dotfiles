@@ -131,5 +131,12 @@ function fin()
 {
 history | grep $1 | sed 's/^\s*[0-9]*\s*//g' | sort | uniq |  vim -
 }
+export HISTCONTROL=ignoredups:erasedups
+
+# append history entries..
+shopt -s histappend
+
+# After each command, save and reload history
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 export PS1="[\d \t \u:\w ] $ "
