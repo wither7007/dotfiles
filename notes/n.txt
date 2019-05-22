@@ -82,4 +82,4 @@ Jansen476
 
 target jimsteffes@outlook.com @Oxymoron123
 
-Aldi's
+C:\Users\internet10\AppData\Local\Programs\Git\git-bash.exe --cd-to-home
