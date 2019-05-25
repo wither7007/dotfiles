@@ -1,4 +1,7 @@
-echo "(a)dd:"
+printf "\n\n\n"
+cat /etc/passwd | grep home
+printf "\n\n\n"
+echo "(a)add"
 echo "(d)elete"
 read poop
  if [ $poop = "foo" ]; then
