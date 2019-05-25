@@ -79,3 +79,7 @@ history | grep $1 | sed 's/^\s*[0-9]*\s*//g' | sort | uniq |  vim -
 }
 git hub jimsteffes
 Jansen476
+
+target jimsteffes@outlook.com @Oxymoron123
+
+C:\Users\internet10\AppData\Local\Programs\Git\git-bash.exe --cd-to-home

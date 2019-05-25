@@ -7,6 +7,7 @@
 "set toggle space
 call plug#begin()
 Plug 'https://github.com/jiangmiao/auto-pairs'
+Plug 'vim-scripts/bash-support.vim'
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://tpope.io/vim/sensible.git'
