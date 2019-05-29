@@ -1,4 +1,3 @@
-
 https://d.docs.live.net/45392B0364E6CD1F
 curl https://raw.githubusercontent.com/wither7007/dotfiles/master/start.sh > start.sh
 gmapi: AIzaSyAk_m-cdevec7FKQ8-zhtPcZyD3mqlavrE
