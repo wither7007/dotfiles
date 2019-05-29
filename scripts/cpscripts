@@ -1,0 +1,4 @@
+for file in $HOME/dotfiles/scripts/*; do
+    echo /usr/"$(basename "$file")"
+  ln -sf $file /usr/local/bin/"$(basename "$file")"
+done

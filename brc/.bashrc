@@ -152,3 +152,4 @@ function fin()
 history | grep $1 | sed 's/^\s*[0-9]*\s*//g' | sort | uniq |  vim -
 }
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+export PATH=$PATH:/home/steff007/kotlinc/bin 

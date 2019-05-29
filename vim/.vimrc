@@ -32,6 +32,7 @@ map b <C-B>
 map gd :bd<cr> 
 map gn :bn<cr>
 map gp :bp<cr>
+nnoremap <Leader>f :NERDTreeToggle<Enter>
 nnoremap <leader>t :tabnew<CR>
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 noremap <Leader>P "+p
