@@ -82,4 +82,8 @@ Jansen476
 target jimsteffes@outlook.com @Oxymoron123
 
 C:\Users\internet10\AppData\Local\Programs\Git\git-bash.exe --cd-to-home
+<<<<<<< HEAD
 tCjotp#476932
+=======
+curl ifconfig.me && printf '\n'
+>>>>>>> fdf836387338a27528c81e4652c9e0ebf5d87817
