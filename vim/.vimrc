@@ -41,7 +41,7 @@ noremap <Leader>p "*p
 noremap <Leader>y "*y
 noremap <leader>c 0v$hy
 noremap <leader>q :qa!<cr>
-noremap <leader>w :wq<cr>
+noremap <leader>w :wqa<cr>
 set hlsearch
 set incsearch
 set nocompatible              " be iMproved, required
