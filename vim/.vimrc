@@ -40,7 +40,7 @@ noremap <Leader>Y "+y
 noremap <Leader>p "*p
 noremap <Leader>y "*y
 noremap <leader>c 0v$hy
-noremap <leader>q :q!<cr>
+noremap <leader>q :qa!<cr>
 noremap <leader>w :wq<cr>
 set hlsearch
 set incsearch

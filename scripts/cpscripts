@@ -1,3 +1,4 @@
+#Script to copy dot script files to local bin
 for file in $HOME/dotfiles/scripts/*; do
     echo /usr/"$(basename "$file")"
   ln -sf $file /usr/local/bin/"$(basename "$file")"

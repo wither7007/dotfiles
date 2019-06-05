@@ -1,11 +1,12 @@
 #!/bin/bash - 
+#script to list git repos
 #===============================================================================
 #
-#          FILE: f.sh
+#          FILE: gitl
 # 
 #         USAGE: ./f.sh 
 # 
-#   DESCRIPTION: 
+#   DESCRIPTION: script  
 # 
 #       OPTIONS: ---
 #  REQUIREMENTS: ---
