@@ -63,4 +63,5 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 git config --global user.email "jimsteffes@outlook.com"
 git config --global user.name "Jim Steffes"
 git clone https://github.com/wither7007/dotfiles.git
+PATH=$PATH:~/dotfiles/scripts/
 source ~/dotfiles/fun.sh
