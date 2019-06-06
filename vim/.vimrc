@@ -32,6 +32,7 @@ map b <C-B>
 map gd :bd<cr> 
 map gn :bn<cr>
 map gp :bp<cr>
+map <silent> <C-t> :NERDTreeFocus<CR>
 nnoremap <Leader>f :NERDTreeToggle<Enter>
 nnoremap <leader>t :tabnew<CR>
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
@@ -42,6 +43,11 @@ noremap <Leader>y "*y
 noremap <leader>c 0v$hy
 noremap <leader>q :qa!<cr>
 noremap <leader>w :wqa<cr>
+if has('nvim')
+  tnoremap <Esc> <C-\><C-n>
+  tnoremap <M-[> <Esc>
+  tnoremap <C-v><Esc> <Esc>
+endif
 set hlsearch
 set incsearch
 set nocompatible              " be iMproved, required

@@ -84,3 +84,13 @@ target jimsteffes@outlook.com @Oxymoron123
 tCjotp#476932
 curl ifconfig.me && printf '\n'
 git diff master origin/master
+
+
+wp ps
+hZ39r(dD$VMsM7JY6H
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl enable docker
+ps aux --sort -rss | vim -
+sudo systemctl stop docker
+sudo docker-compose up -d  
