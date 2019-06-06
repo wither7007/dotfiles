@@ -4,3 +4,19 @@ ps | Select-String -Pattern init
 Get-Childitem –Path C:\ -Include excel.exe -File -Recurse -ErrorAction SilentlyContinue
 Get-ChildItem env: | fl | more
 & 'C:\Program Files (x86)\Microsoft Office\Office16\excel.exe'
+
+
+
+
+
+
+
+
+
+
+
+Jim Steffes
+jimsteffes@outlook.com
+(651)592-9151
+3409 E. Medicine Lake Blvd
+Plymounth, MN 55441
