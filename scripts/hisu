@@ -1,1 +1,1 @@
-history | cut -c 1-7 --complement | sort | uniq |  egrep -v "alias|cat|cd|cp|lt" | vim -
+history | cut -c 1-7 --complement | sort | uniq |  egrep -v "rm|fin|alias|cat|cd|cp|lt" | vim -
