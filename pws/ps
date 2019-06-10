@@ -1,0 +1,47 @@
+echo c:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
+Function mps {Set-Location -Path C:\projects}
+
+Function lt {gci | Sort-Object LastAccessTime -Descending}
+
+Function rc {gvim c:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1}
+
+Function ga {git add . }
+
+Function gs {git status }
+
+Function gco($x) {git commit -m $x }
+
+Function no {node }
+
+Function findf($file){
+Get-Childitem –Path . -Include $file -File -Recurse -ErrorAction SilentlyContinue
+}
+
+Function mem{
+[cmdletbinding()]
+Param()
+ 
+$os = Get-Ciminstance Win32_OperatingSystem
+$pctFree = [math]::Round(($os.FreePhysicalMemory/$os.TotalVisibleMemorySize)*100,2)
+ 
+if ($pctFree -ge 45) {
+$Status = "OK"
+}
+elseif ($pctFree -ge 15 ) {
+$Status = "Warning"
+}
+else {
+$Status = "Critical"
+}
+ 
+$os | Select @{Name = "Status";Expression = {$Status}},
+@{Name = "PctFree"; Expression = {$pctFree}},
+@{Name = "FreeGB";Expression = {[math]::Round($_.FreePhysicalMemory/1mb,2)}},
+@{Name = "TotalGB";Expression = {[int]($_.TotalVisibleMemorySize/1mb)}}
+ 
+}
+Function myp {
+Get-Process | Sort-Object -Descending WS 
+}
+
