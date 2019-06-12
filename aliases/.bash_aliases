@@ -46,3 +46,4 @@ alias uht='hi | cut -c 1-7 --complement | sort | uniq |  egrep -v "alias|cat|cd|
 alias diffo='git diff master origin/master'
 alias mem='ps aux --sort -rss | vim -'
 alias cx="chmod +x "
+alias ssp="python3 -m http.server"
