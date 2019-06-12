@@ -45,3 +45,4 @@ alias ipme='curl ifconfig.me && printf "\n"'
 alias uht='hi | cut -c 1-7 --complement | sort | uniq |  egrep -v "alias|cat|cd|cp|lt" | vi -'
 alias diffo='git diff master origin/master'
 alias mem='ps aux --sort -rss | vim -'
+alias cx="chmod +x "
