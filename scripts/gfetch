@@ -1,0 +1,23 @@
+#!/bin/bash - 
+#===============================================================================
+#
+#          FILE: gfetch.sh
+# 
+#         USAGE: ./gfetch.sh 
+# 
+#   DESCRIPTION: 
+# 
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: YOUR NAME (), 
+#  ORGANIZATION: 
+#       CREATED: 06/07/2019 16:47
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                              # Treat unset variables as an error
+git fetch
+git diff master origin/master
+
