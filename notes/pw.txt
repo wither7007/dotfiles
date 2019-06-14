@@ -17,6 +17,6 @@ Get-ChildItem env: | fl | more
 
 Jim Steffes
 jimsteffes@outlook.com
-(651)592-9151
+(651) 592-9151
 3409 E. Medicine Lake Blvd
-Plymounth, MN 55441
+Plymouth, MN 55441
