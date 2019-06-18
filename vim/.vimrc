@@ -6,6 +6,7 @@
 "set search highlight
 "set toggle space
 call plug#begin()
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'vim-scripts/bash-support.vim'
 Plug 'https://github.com/tpope/vim-commentary'
@@ -38,7 +39,7 @@ nnoremap <leader>t :tabnew<CR>
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 noremap <Leader>P "+p
 noremap <Leader>Y "+y
-noremap <Leader>p "*p
+"noremap <Leader>p "*p
 noremap <Leader>y "*y
 noremap <leader>c 0v$hy
 noremap <leader>q :qa!<cr>

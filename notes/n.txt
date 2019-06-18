@@ -95,3 +95,4 @@ ps aux --sort -rss | vim -
 sudo systemctl stop docker
 sudo docker-compose up -d  
 echo 'C:\Users\jimst'  | sed 's/\\/\//g'  | sed 's/[c|C]:/\/mnt\/c/g'
+vim k && source $_
