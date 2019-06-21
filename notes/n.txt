@@ -96,3 +96,10 @@ sudo systemctl stop docker
 sudo docker-compose up -d  
 echo 'C:\Users\jimst'  | sed 's/\\/\//g'  | sed 's/[c|C]:/\/mnt\/c/g'
 Ozzymandus@476
+
+CODE SETTINGS SYNC UPLOAD SUMMARY
+Version: 3.2.9
+--------------------
+GitHub Token: e6a6168ad60fbbbe4784210d82111e79f889cf96
+GitHub Gist: af5c9920f1b016c6c65918659ffa5f08
+GitHub Gist Type: Secret
