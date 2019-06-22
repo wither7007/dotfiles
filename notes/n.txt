@@ -105,3 +105,4 @@ GitHub Gist: af5c9920f1b016c6c65918659ffa5f08
 GitHub Gist Type: Secret
 =======
 vim k && source $_
+git diff master..origin/master
