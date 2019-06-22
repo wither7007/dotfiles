@@ -1,3 +1,4 @@
+service --status-all
 https://d.docs.live.net/45392B0364E6CD1F
 curl https://raw.githubusercontent.com/wither7007/dotfiles/master/start.sh > start.sh
 gmapi: AIzaSyAk_m-cdevec7FKQ8-zhtPcZyD3mqlavrE
@@ -105,4 +106,6 @@ GitHub Gist: af5c9920f1b016c6c65918659ffa5f08
 GitHub Gist Type: Secret
 =======
 vim k && source $_
+<<<<<<< HEAD
 git diff master..origin/master
+sudo lsof -i -P -n | grep LISTEN
