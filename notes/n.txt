@@ -109,3 +109,4 @@ vim k && source $_
 <<<<<<< HEAD
 git diff master..origin/master
 sudo lsof -i -P -n | grep LISTEN
+cat /etc/os-release
