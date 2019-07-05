@@ -6,7 +6,9 @@ Get-ChildItem env: | fl | more
 & 'C:\Program Files (x86)\Microsoft Office\Office16\excel.exe'
 
 
-
+import readline
+for i in range(readline.get_current_history_length()):
+    print (readline.get_history_item(i + 1))
 
 
 
