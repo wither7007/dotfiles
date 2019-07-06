@@ -1,2 +1,3 @@
+# get or stop mysql apache2
 sudo service mysql start
 sudo /etc/init.d/apache2 start
