@@ -1,0 +1,6 @@
+##Unique and update Bash History
+echo "This will effect Bash History File"
+cp ~/.bash_history ~/bash_back
+history | cut -c 1-7 --complement | sort | uniq |  egrep -v "git|fin|vi|which|python|rm|ping|alias|cat|cd|cp|lt" > ~/uht
+history -c
+cp ~/uht ~/.bash_history
