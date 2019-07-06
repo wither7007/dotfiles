@@ -58,7 +58,6 @@ k=Array.from({length:50}, ()=>rn(200))
 
 
 update bash
-sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
 sudo apt autoremove
