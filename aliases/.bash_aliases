@@ -48,3 +48,4 @@ alias mem='ps aux --sort -rss | vim -'
 alias cx="chmod +x "
 alias ssp="python3 -m http.server"
 alias py="python"
+alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
