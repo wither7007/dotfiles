@@ -14,6 +14,8 @@ Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://tpope.io/vim/sensible.git'
 Plug 'https://github.com/scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
+Plug 'mattn/emmet-vim'
+
 call plug#end()
 colorscheme elflord
 let g:user_emmet_leader_key=','
