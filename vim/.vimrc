@@ -13,7 +13,9 @@ Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://tpope.io/vim/sensible.git'
 Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'mattn/emmet-vim'
+
 call plug#end()
 colorscheme elflord
 let g:user_emmet_leader_key=','
@@ -55,7 +57,7 @@ set nocompatible              " be iMproved, required
 set noswapfile
 set notimeout
 set number
-set pastetoggle=<C-I>
+set pastetoggle=<C-O>
 set path+=**
 set showmode
 set statusline="%f%m%r%h%w [%Y] [0x%02.2B]%< %F%=%4v,%4l %3p%% of %L"
