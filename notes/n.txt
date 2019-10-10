@@ -1,4 +1,6 @@
 service --status-all
+remove parentheses
+for f in *'('*')'*; do    mv -i "$f" "${f/(*)/}"; done 
 https://d.docs.live.net/45392B0364E6CD1F
 curl https://raw.githubusercontent.com/wither7007/dotfiles/master/start.sh > start.sh
 gmapi: AIzaSyAk_m-cdevec7FKQ8-zhtPcZyD3mqlavrE
@@ -79,8 +81,6 @@ history | grep $1 | sed 's/^\s*[0-9]*\s*//g' | sort | uniq |  vim -
 git hub jimsteffes
 Jansen476
 
-target jimsteffes@outlook.com @Oxymoron123
-
 tCjotp#476932
 curl ifconfig.me && printf '\n'
 git diff master origin/master
@@ -99,3 +99,7 @@ Ozzymandus@476
 git diff master..origin/master
 sudo lsof -i -P -n | grep LISTEN
 cat /etc/os-release
+$ === jQuery
+android 7.1.1 Nougat
+Z3001s
+elite book 8460p

@@ -19,7 +19,7 @@ alias gs='git status '
 alias gx='ga . && gc "initial"'
 alias hi='history'
 alias ht='hi | sort -rn | cut -c 1-7 --complement | vi -'
-alias i3='ipython'
+alias i3='ipython3'
 alias la='ls -A'
 alias ll='ls -alF'
 alias lotto='curl --silent https://www.mnlottery.com/games/lotto | html2text | sed -e 1,92d | vi -'
@@ -49,4 +49,5 @@ alias mem='ps aux --sort -rss | vim -'
 alias cx="chmod +x "
 alias ssp="python3 -m http.server"
 alias py="python"
+alias ssg="ssh 34.74.99.71"
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'

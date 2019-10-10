@@ -5,6 +5,8 @@
 "set hlsearch
 "set search highlight
 "set toggle space
+set pastetoggle=<F2>
+set pastetoggle=<leader>o
 call plug#begin()
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'https://github.com/jiangmiao/auto-pairs'
@@ -19,7 +21,7 @@ Plug 'mattn/emmet-vim'
 call plug#end()
 colorscheme elflord
 let g:user_emmet_leader_key=','
-imap jj <Esc>  
+imap jj <Esc>
 let NERDTreeShowHidden=1
 let g:user_emmet_leader_key=','
 map <C-D> :put =strftime(\"%c\")
@@ -68,3 +70,14 @@ set wildmenu
 syntax on
 syntax on
 vmap <C-c> :w! ~/.vimbuffer \| !cat ~/.vimbuffer \| clip.exe <CR><CR>
+set pastetoggle=<F2>
+" WSL yank support
+" let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
+" if executable(s:clip)
+"     augroup WSLYank
+"         autocmd!
+"         autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
+"     augroup END
+" endif
+let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point"
+autocmd TextYankPost * if v:event.operator ==# 'y' | call system('cat |' . s:clip, @0) | endif
